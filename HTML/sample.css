@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+video{
+    width: 100%;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+span{
+    color:coral
+}
+img{
+    max-width: 100%;
+    height: 500px;
+    padding: 0px 10px;
+    margin: 10px;
+}
+marquee{
+    color: rgb(156, 29, 199);
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    padding: 10px;
+
+}
+button{
+    color:black;
+    background-color: green;
+    border-radius: 50px;
+    padding: 5px;
+
+}
+h2{
+    padding: 0px 10px;
+    margin: 10px;
+    background-color:aquamarine;
+    max-width:fit-content;
+
+}
+mark{
+    color:rgb(14, 16, 17);
+    background-color: rgb(26, 231, 218);
+}
+table{
+    border: 10px;
+    border-radius: 10px;
+}
+tr{
+    padding: 0 2px;
+}
+td{
+    padding: 0px 10px;
+    margin: 20px;
+}
