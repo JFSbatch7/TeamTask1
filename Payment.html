@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="Payment.css">
+</head>
+<body>
+    <h1>PAYMENT FORM</h1>
+    <p>*Fill this fields for the payment*</p><br><br>
+    <div class="class">
+        <h2>Contact Information</h2><br>
+        <form action="">
+            <label for="">First Name :</label>
+            <input type="text"><br><br>
+            <label for="">Last Name :</label>
+            <input type="text"><br><br>
+            <label for="">Your email :</label>
+            <input type="email"><br><br>
+            <label for="">Phone-Num:</label>
+            <input type="tel"><br><br>
+            <input type="submit">
+        </form>
+        <br><br>
+        <h2>Card Information</h2><br>
+        <form action=""> 
+            <h4>Card Type :
+            <select name="card_type" id="card_type" required="">
+              <option value="">---selecr a Card type--</option>
+              <option value="visa">Visa</option>
+              <option value="rupy">Rupay</option>
+              <option value="master card">Master Card</option>        
+            </select>    
+            </h4><br>
+            <label for="">Card Number  :</label> 
+            <input type="number"><br><br>
+            <label for="">Expiration Date :</label>
+            <input type="date"><br><br>
+            <label for="">CVV :</label>
+            <input type="password"><br><br>
+            <input type="submit">
+        </form>
+        <br><br>
+        <h4>After submitting Details Go to Payment</h4><br>
+        <button>Pay Now</button>
+    </div>
+</body>
+</html
